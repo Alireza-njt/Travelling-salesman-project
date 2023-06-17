@@ -34,8 +34,8 @@ public class VictoryFrame extends JFrame {
     Image palaceImage = new ImageIcon("images\\victory frame images\\palace.png").getImage();
     Image bluePlayerImage = new ImageIcon("images\\blue player.png").getImage();
     Image redPlayerImage = new ImageIcon("images\\red player.png").getImage();
-    Image medal1Image = new ImageIcon("images\\victory frame images1st medal.png").getImage();
-    Image medal2Image = new ImageIcon("images\\victory frame images2nd medal.png").getImage();
+    Image medal1Image = new ImageIcon("images\\victory frame images\\1st medal.png").getImage();
+    Image medal2Image = new ImageIcon("images\\victory frame images\\2nd medal.png").getImage();
     Image bluePieceImage = new ImageIcon("images\\game board components images\\blue game piece.png").getImage();
     Image redPieceImage = new ImageIcon("images\\game board components images\\red game piece.png").getImage();
     Image crownImage = new ImageIcon("images\\victory frame images\\crown.png").getImage();
@@ -114,7 +114,6 @@ public class VictoryFrame extends JFrame {
             g2D.drawImage(redPieceImage,850,338,225,225,null);
             g2D.setFont(new Font("Modern No. 20" , Font.BOLD , 19));
             g2D.setColor(Color.WHITE);
-            g2D.drawString(""+massageSW,50,50);
             if (massageSW==0) {
             g2D.drawString("The reason why the red player wins :" , 370,415);
             g2D.drawString(textR1, 370,445);
