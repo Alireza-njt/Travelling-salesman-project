@@ -13,7 +13,7 @@ import java.io.FileNotFoundException;
 public class GameSound {
 
     private String name;
-    private static boolean soundSW = false;
+    private static boolean soundSW = true;
 
     public static void setSoundSW(boolean soundSW) {
         GameSound.soundSW = soundSW;
