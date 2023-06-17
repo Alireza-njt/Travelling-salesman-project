@@ -1450,14 +1450,6 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 e.printStackTrace();
             }
         }
-        System.out.printf("Diamond Ring : %d\n", ((xPositionDiamondRing - 10) / 60) - ((yPositionDiamondRing - 10) / 6) + 91);
-        System.out.printf("Jeweled Sword : %d\n", ((xPositionJeweledSword - 10) / 60) - ((yPositionJeweledSword - 10) / 6) + 91);
-        System.out.printf("Golden Glass : %d\n", ((xPositionGoldenGlass - 10) / 60) - ((yPositionGoldenGlass - 10) / 6) + 91);
-        System.out.printf("Glass CUP : %d\n", ((xPositionGlassCup - 10) / 60) - ((yPositionGlassCup - 10) / 6) + 91);
-        System.out.printf("wooden bow : %d\n", ((xPositionWoodenBow - 10) / 60) - ((yPositionWoodenBow - 10) / 6) + 91);
-        System.out.printf("Steel Shield : %d\n", ((xPositionSteelShield - 10) / 60) - ((yPositionSteelShield - 10) / 6) + 91);
-        System.out.printf("Golden key : %d\n", ((xPositionGoldenKey - 10) / 60) - ((yPositionGoldenKey - 10) / 6) + 91);
-        System.out.printf("dragon scroll : %d\n", ((xPositionDragonScroll - 10) / 60) - ((yPositionDragonScroll - 10) / 6) + 91);
         //set Timer
         timer = new Timer(1000, this);
         timer.addActionListener(new ActionListener() {
