@@ -230,13 +230,12 @@ public class MarketPanel extends JPanel implements ActionListener {
         g2D.drawLine(710, 175, 710, 565);
         g2D.setFont(new Font("Modern No. 20", Font.BOLD, 30));
         g2D.drawString("Guns", 112, 160);
-        g2D.drawString("Precious Treasures", 475, 160);
+        g2D.drawString("Precious Treasures", 460, 160);
         g2D.setFont(new Font("Modern No. 20", Font.BOLD, 20));
         g2D.drawString("Revolver (low level gun)", 120, 200);
         g2D.drawString("Machine gun (medium level gun)", 120, 310);
         g2D.drawString("Rocket-propelled grenade (RPG)", 120, 450);
         g2D.drawString("(high level gun)", 120, 470);
-        g2D.drawString("Buy :", 790, 155);
         g2D.drawImage(gun1Image, 115, 205, 150, 83, null);
         g2D.drawImage(gun2Image, 115, 315, 188, 113, null);
         g2D.drawImage(gun3Image, 115, 475, 235, 80, null);
@@ -277,6 +276,7 @@ public class MarketPanel extends JPanel implements ActionListener {
         g2D.drawString("499.99$", 360, 275);
         g2D.drawString("749.99$", 360, 410);
         g2D.drawString("999.99$", 360, 550);
+        g2D.drawString("2999.99$",735,156);
         g2D.setColor(new Color(1, 50, 32));
         g2D.setFont(new Font("Modern No. 20", Font.BOLD, 20));
         g2D.drawString("+25 Power", 257, 272);
