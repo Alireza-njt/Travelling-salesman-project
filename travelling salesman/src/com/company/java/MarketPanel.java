@@ -103,7 +103,7 @@ public class MarketPanel extends JPanel implements ActionListener {
     Image dragonScrollImage =
             new ImageIcon("images\\treasure images\\dragon scroll.png").getImage();
     Image blackMarketImage =
-            new ImageIcon("images\\treasure images\\black market icon.png").getImage();
+            new ImageIcon("images\\black market icon.png").getImage();
     Image redTickImage =
             new ImageIcon("images\\market panel components images\\tick-red.png").getImage();
     Image yellowTickImage =
