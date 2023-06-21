@@ -1703,6 +1703,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedDiamondRingSW && questSW == 0) {
                     new GameSound("victory");
                     usedDiamondRingSW = true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(0)!=2 && questSW==0)
                     MarketPanel.setTicksListSW(0,1);
@@ -1715,6 +1724,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedJeweledSwordSW && questSW==1) {
                     new GameSound("victory");
                     usedJeweledSwordSW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(1)!=2 && questSW==1)
                     MarketPanel.setTicksListSW(1,1);
@@ -1727,6 +1745,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedGoldenGlassSW && questSW==2) {
                     new GameSound("victory");
                     usedGoldenGlassSW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(2)!=2 && questSW==2)
                     MarketPanel.setTicksListSW(2,1);
@@ -1739,6 +1766,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedGlassCupSW && questSW==3) {
                     new GameSound("victory");
                     usedGlassCupSW = true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(3)!=2 && questSW==3)
                     MarketPanel.setTicksListSW(3,1);
@@ -1751,6 +1787,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedWoodenBowSW && questSW==4) {
                     new GameSound("victory");
                     usedWoodenBowSW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(4)!=2 && questSW==4)
                     MarketPanel.setTicksListSW(4,1);
@@ -1763,6 +1808,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedSteelShieldSW && questSW==5) {
                     new GameSound("victory");
                     usedSteelShieldSW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(5)!=2 && questSW==5)
                     MarketPanel.setTicksListSW(5,1);
@@ -1775,6 +1829,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedGoldenKeySW && questSW==6) {
                     new GameSound("victory");
                     usedGoldenKeySW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(6)!=2 && questSW==6)
                     MarketPanel.setTicksListSW(6,1);
@@ -1787,6 +1850,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedDragonScrollSW && questSW==7) {
                     new GameSound("victory");
                     usedDragonScrollSW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(7)!=2 && questSW==7)
                     MarketPanel.setTicksListSW(7,1);
@@ -1800,6 +1872,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedDiamondRingSW && questSW==0) {
                     new GameSound("victory");
                     usedDiamondRingSW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(0)!=2 && questSW==0)
                     MarketPanel.setTicksListSW(0,1);
@@ -1808,6 +1889,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (jeweledSwordOwner==0 && questSW==1) {
                     jeweledSwordOwner=2;
                     usedQuestSW[1] = true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (!usedJeweledSwordSW && questSW==1) {
                     new GameSound("victory");
@@ -1824,6 +1914,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedGoldenGlassSW && questSW==2) {
                     new GameSound("victory");
                     usedGoldenGlassSW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(2)!=2 && questSW==2)
                     MarketPanel.setTicksListSW(2,1);
@@ -1832,6 +1931,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (glassCupOwner==0 && questSW==3) {
                     glassCupOwner=2;
                     usedQuestSW[3] = true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (!usedGlassCupSW && questSW==3) {
                     new GameSound("victory");
@@ -1848,6 +1956,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedWoodenBowSW && questSW==4) {
                     new GameSound("victory");
                     usedWoodenBowSW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(4)!=2 && questSW==4)
                     MarketPanel.setTicksListSW(4,1);
@@ -1860,7 +1977,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedSteelShieldSW && questSW==5) {
                     new GameSound("victory");
                     usedSteelShieldSW=true;
-                    informationTextSW=3;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(5)!=2 && questSW==5)
                     MarketPanel.setTicksListSW(5,1);
@@ -1873,6 +1998,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedGoldenKeySW && questSW==6) {
                     new GameSound("victory");
                     usedGoldenKeySW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(6)!=2 && questSW==6)
                     MarketPanel.setTicksListSW(6,1);
@@ -1885,6 +2019,15 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (!usedDragonScrollSW && questSW==7) {
                     new GameSound("victory");
                     usedDragonScrollSW=true;
+                    JOptionPane.showOptionDialog(
+                            null,
+                            "You found the treasure, go to the castle square and sell the treasure!",
+                            "The treasure was found!",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE,
+                            null,
+                            null,
+                            0);
                 }
                 if (MarketPanel.getTicksListSW(7)!=2 && questSW==7)
                     MarketPanel.setTicksListSW(7,1);
