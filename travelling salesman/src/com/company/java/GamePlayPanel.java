@@ -3431,8 +3431,10 @@ public class GamePlayPanel extends JPanel implements ActionListener {
                 if (blueScore>redScore) new VictoryFrame("Blue" , 1);
                 else if (redScore>blueScore) new VictoryFrame("Red" , 1);
                 else if (redScore==blueScore) {
-                    if (positionYBlueSoldItText1==570) new VictoryFrame("Blue" , 2);
-                    else if (positionYRedSoldItText1==570) new VictoryFrame("Red" , 2);
+                    if (positionYBlueSoldItText1==570) 
+                        new VictoryFrame("Blue" , 2);// "positionYBlueSoldItText1" being equal to 570 means that it is the blue player who sold the most valuable treasure in the game (diamond ring)
+                    else if (positionYRedSoldItText1==570)
+                        new VictoryFrame("Red" , 2); // "positionYRedSoldItText1" being equal to 570 means that it is the blue player who sold the most valuable treasure in the game (diamond ring)
                 }
             }
             gameFinishSW=false;
