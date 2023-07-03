@@ -58,7 +58,7 @@ public class MenuFrame extends JFrame implements ActionListener {
         exitButton.setBackground(new Color(243, 112, 66));
         exitButton.setForeground(Color.black);
         exitButton.setFont(new Font("Modern No. 20", Font.BOLD, 25));
-        //-----------------------------------
+        //-----"Sound" Button------------
         soundButton = new JButton("Sound");
         soundButton.setBounds(110, 590, 100, 60);
         soundButton.setFocusable(false);
@@ -66,11 +66,12 @@ public class MenuFrame extends JFrame implements ActionListener {
         soundButton.setBackground(new Color(0x1035AC));
         soundButton.setForeground(Color.white);
         soundButton.setFont(new Font("Modern No. 20", Font.BOLD, 20));
-        //-----------------------------------
+        //*********add buttons to Menu Frame*********************************
         this.add(newGameButton);
         this.add(loadGameButton);
         this.add(exitButton);
         this.add(soundButton);
+        //*******************************************************************
         this.setTitle("Travelling Salesman");
         this.setSize(1400, 850);
         this.setResizable(false);
