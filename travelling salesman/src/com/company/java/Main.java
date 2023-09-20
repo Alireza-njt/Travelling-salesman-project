@@ -14,5 +14,5 @@ public class Main {
 }
 
 //For a better experience of the game, 
-//please refer to the display setting section and set the Scale to 125%
+//please refer to the display setting section and set the Scale to 150%
 //and the display resolution to 1920x1080.
