@@ -1,4 +1,4 @@
-<div dir="rtl">
+<div dir=&quotrtl&quot>
 
 # Travelling Salesman ■ بازی فروشنده دوره گرد 
 
